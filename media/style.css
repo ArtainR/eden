@@ -1,0 +1,115 @@
+* {
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #171717;
+   font-family: 'Fira Code', monospace;
+   color: white;
+   min-height: 95vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navigation {
+   position: fixed;
+   top: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   padding: 30px 50px;
+}
+
+.logo {
+   font-size: 21px;
+   color: #d65ad6;
+   text-shadow: 15px -10px #5c175c;
+   cursor: pointer;
+}
+
+.menu {
+   display: flex;
+   font-size: 16px;
+   list-style: none;
+}
+
+.menu__item {
+   margin-left: 40px;
+   color: #d65ad6;
+}
+
+.menu__item:hover {
+   color: #5c175c;
+   cursor: pointer;
+}
+
+.form-box {
+   width: 459px;
+   height: 493px;
+   padding: 20px 55px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border: 2px solid #d65ad6;
+   text-align: center;
+}
+
+h1 {
+   font-size: 21px;
+   margin: 0;
+}
+
+p {
+   font-size: 14px;
+   font-weight: 300;
+   color: gray;
+}
+
+form {
+   margin-top: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+input {
+   font-family: 'Fira Code', monospace;
+   font-size: 16px;
+   background-color: transparent;
+   color: white;
+   border: none;
+   border-bottom: 1px solid hsla(0, 0%, 100%, .5);
+   width: 80%;
+   margin: 15px 0;
+}
+
+label {
+   font-size: 10px;
+   font-weight: 300;
+   display: contents !important;
+
+}
+
+.submit {
+   width: 170px;
+   padding: 10px 19px;
+   margin-top: 50px;
+   font-family: 'Fira Code', monospace;
+   font-size: 14px;
+   font-weight: 600;
+   background-color: white;
+   border: none;
+   display: block;
+   cursor: pointer;
+}
+
