@@ -6,7 +6,6 @@
       header('Location: main.php');
       exit();
    }
-
 ?>
 
 <!DOCTYPE html>
