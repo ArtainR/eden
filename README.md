@@ -1,2 +1,2 @@
 # repotesty
-### I'm testing the repository and trying some basic commands. Then - maybe some school projects.
+### just some tests
