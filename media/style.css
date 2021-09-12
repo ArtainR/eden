@@ -96,8 +96,7 @@ input {
 label {
    font-size: 10px;
    font-weight: 300;
-   display: contents !important;
-
+   width: 250px;
 }
 
 .submit {
@@ -112,4 +111,3 @@ label {
    display: block;
    cursor: pointer;
 }
-

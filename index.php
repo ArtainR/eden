@@ -6,6 +6,8 @@
       header('Location: main.php');
       exit();
    }
+
+
 ?>
 
 <!DOCTYPE html>
@@ -22,14 +24,13 @@
    <nav class="navigation">
       <span class="logo">domaszk</span>
       <ul class="menu">
-         <li class="menu__item"><a href="index.php">logowanie / rejestracja</a></li>
+         <li class="menu__item"><a href="registration.php">rejestracja</a></li>
          <li class="menu__item"><a href="info.php">o projekcie</a></li>
          <li class="menu__item"><a href="contact.php">kontakt</a></li>
       </ul>
    </nav>
    <div class="form-box">
-      <h1><span class="logo">eden</span></h1>
-      <p>dziesięć słów zawrzeć w jednym</p>
+      <h1><span class="logo">logowanie</span></h1>
       <?php 
       if(isset($_SESSION['e_login'])) echo $_SESSION['e_login'];
       ?>
