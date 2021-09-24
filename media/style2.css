@@ -95,6 +95,7 @@ body {
    padding: 10px 30px;
    border: none;
    color: white;
+   transition: background-color 0.02s linear;
 }
 
 .filters__button--active {
@@ -103,9 +104,12 @@ body {
 
 }
 .filters__button--logout {
-   background: rgb(170, 52, 52);
-   color: #171717;
+   background-color: #632020;
+   color: white;
+}
 
+.filters__button--logout:hover {
+	background-color: #842626;
 }
 
 

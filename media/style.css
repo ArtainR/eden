@@ -19,6 +19,15 @@ body {
    align-items: center;
 }
 
+a:link, a:visited {
+	color: #d65ad6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f79bf7;
+}
+
 .navigation {
    position: fixed;
    top: 0;
@@ -33,7 +42,7 @@ body {
    font-size: 21px;
    color: #d65ad6;
    text-shadow: 15px -10px #5c175c;
-   cursor: pointer;
+   cursor: pointer; /* Why? It makes me think it's a link */
 }
 
 .menu {
@@ -91,6 +100,12 @@ input {
    border-bottom: 1px solid hsla(0, 0%, 100%, .5);
    width: 80%;
    margin: 15px 0;
+   transition: background-color 0.02s linear;
+}
+
+input:focus {
+	outline: none;
+	background-color: hsla(0, 0%, 100%, .1);
 }
 
 label {
@@ -108,6 +123,7 @@ label {
    font-weight: 600;
    background-color: white;
    border: none;
+   border-radius: 1px;
    display: block;
    cursor: pointer;
 }
